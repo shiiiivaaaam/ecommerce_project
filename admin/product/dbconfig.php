@@ -1,6 +1,6 @@
 <?php
     $host= 'localhost';
-    $username= 'root';
+    $username= '';//ussername here.
     $password= null;
     $dbname= 'ecommerce';
 
@@ -8,4 +8,5 @@
     if ($conn->connect_error) {
         die('database connection error'. $conn->connect_error);
     }
+
 ?>
